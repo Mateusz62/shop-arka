@@ -1,0 +1,43 @@
+.collection-section{
+    margin-top: 20px;
+    text-align: center
+}
+.collection-h2{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 25px;
+}
+.allcollection-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+.collection-div{
+    flex-basis: 24%;
+    min-width: 300px;
+}
+.underimage-div{
+    position: relative;
+    text-align: center;
+    bottom: 96px;
+    line-height: 30px;
+}
+.button{
+    padding: 7px 40px 7px 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    background-color: aqua;
+}
+.golf-img, .pikowanakurtka-img, .skorzanakurtka-img{
+    width: 100%;
+    height: 100%;
+    outline-offset: 10px;
+    outline-color: aqua;
+    outline-style: solid;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
