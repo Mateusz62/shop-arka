@@ -31,6 +31,7 @@
     bottom: 18px;
     line-height: 5px;
     letter-spacing: 1px;
+    padding: 2px;
 }
 .golf-img, .pikowanakurtka-img, .skorzanakurtka-img{
     width: 87%; /* przy align-items: strech; możemy regulować wielkość obrazka oraz odległość między nimi */
@@ -41,4 +42,8 @@
     padding-bottom: 30px;
     border-radius: 10px;
 
+}
+a{
+    text-decoration: none;
+    color: black;
 }

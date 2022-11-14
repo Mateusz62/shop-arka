@@ -1,0 +1,53 @@
+.collection-section{
+    margin-top: 20px;
+    text-align: center;
+}
+.collection-h2{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 25px;
+}
+.allcollection-div{
+    display: flex;
+    align-items: stretch; /* potrzebne aby móc ustawiać wysokość zdjęcia */
+    justify-content: space-around;
+    /* margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 25px;
+    margin-bottom: 20px; */
+
+    margin: 25px 160px 20px 160px /* aby odstęp był na zewnątrz a wewnątrz się zmniejszał */
+
+    /* padding-left: 350px; potrzebne aby zmniejszyć odstępy między zdjęciami podczas używania display: flex i flex-basis */
+    /* padding-right: 350px; potrzebne aby zmniejszyć odstępy między zdjęciami podczas używania display: flex i flex-basis */
+
+}
+.collection-div{
+    flex-basis: 28%;
+    /* min-width: 300px; */
+}
+.underimage-div{
+    position: relative;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    bottom: 18px;
+    line-height: 5px;
+    letter-spacing: 0.7px;
+    padding: 2px;
+}
+.golf-img, .pikowanakurtka-img, .skorzanakurtka-img{
+    width: 100%; /* przy align-items: strech; możemy regulować wielkość obrazka oraz odległość między nimi */
+    height: 95%; /* przy align-items: strech; możemy regulować wielkość obrazka oraz odległość między nimi */
+    outline-offset: 10px;
+    outline-style: solid;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    border-radius: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
