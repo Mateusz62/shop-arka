@@ -10,16 +10,15 @@
 .allcollection-div{
     display: flex;
     align-items: stretch; /* potrzebne aby móc ustawiać wysokość zdjęcia */
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 25px;
     margin-bottom: 20px;
-    padding-left: 220px; /*potrzebne aby zmniejszyć odstępy między zdjęciami podczas używania display: flex i flex-basis */
-    padding-right: 220px; /*potrzebne aby zmniejszyć odstępy między zdjęciami podczas używania display: flex i flex-basis */
+    padding-left: 80px; /*potrzebne aby zmniejszyć odstępy między zdjęciami podczas używania display: flex i flex-basis */
+    padding-right: 80px; /*potrzebne aby zmniejszyć odstępy między zdjęciami podczas używania display: flex i flex-basis */
 }
 .collection-div{
-    flex-basis: 29%;
+    flex-basis: 27%;
     /* min-width: 300px; */
-
 }
 .underimage-div{
     position: relative;
@@ -34,14 +33,14 @@
     padding: 2px;
 }
 .golf-img, .pikowanakurtka-img, .skorzanakurtka-img{
-    width: 87%; /* przy align-items: strech; możemy regulować wielkość obrazka oraz odległość między nimi */
+    width: 100%; /* przy align-items: strech; możemy regulować wielkość obrazka oraz odległość między nimi */
     height: 97%; /* przy align-items: strech; możemy regulować wielkość obrazka oraz odległość między nimi */
     outline-offset: 10px;
     outline-style: solid;
+    outline-color: gray;
     box-sizing: border-box;
     padding-bottom: 30px;
     border-radius: 10px;
-
 }
 a{
     text-decoration: none;
