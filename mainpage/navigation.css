@@ -73,4 +73,14 @@ ul li a{
     position: absolute;
     right: 150px;
 }
+.cartamount{
+    position: absolute;
+    right: 140px;
+    top: 133px;
+    background-color: red;
+    line-height: 1.5vh;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 20px;
+}
 
