@@ -70,22 +70,4 @@ let products = [
     type: "Swetry",
     sizes: ["M", "L", "XL", "XXL"],
   },
-
-  {
-    id: 9,
-    name: "Sweter okrągły dekolt Jack",
-    img: "./image/bestseller/skorzanakurtka.jpg",
-    price: 70,
-    type: "Swetry",
-    sizes: ["M", "L", "XL", "XXL"],
-  },
-
-  {
-    id: 10,
-    name: "Sweter okrągły dekolt Jack",
-    img: "./image/bestseller/pikowanakurtka.jpg",
-    price: 70,
-    type: "Swetry",
-    sizes: ["M", "L", "XL", "XXL"],
-  },
 ];

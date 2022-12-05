@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kolekcja męska | Arka</title>
+    <title>Przechowalnia | Arka</title>
     <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
     <link href="/fontawesome/css/brands.css" rel="stylesheet">
     <link href="/fontawesome/css/solid.css" rel="stylesheet">
@@ -45,75 +45,17 @@
                 </form>
     
                 <div>
-                <a href="" class="a-href-shopping-icon"><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
-                    <!-- dorobić counter z font-awesome -->
-    
+                    <a href="/basket/basket.html" class="a-href-shopping-icon"><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                    <div class="cartamount">0</div>
                 </div>   
             </div>
         </nav>
 
         <section class="collection-section">
             <h2 class="collection-h2">Swetry</h2>
-            <div class="allcollection-div">
-                <div class="collection-div">
-                    <a href="/oneclothes/onesweter/onesweterLuke/onesweterLuke.html"><img src="/image/bestseller/golf.jpg" class="golf-img" ></a>
-                    <div class="underimage-div">
-                        <a href="/oneclothes/onesweter/onesweterLuke/onesweterLuke.html"><p>Sweter Luke czarny <br>70zł</p></a>
-                    </div>
-                </div>
 
-                <div class="collection-div">
-                    <a href="/oneclothes/onesweter/onesweterJack/onesweterJack.html"><img src="/image/bestseller/pikowanakurtka.jpg" class="pikowanakurtka-img"></a>
-                    <div class="underimage-div">
-                        <a href="/oneclothes/onesweter/onesweterJack/onesweterJack.html"><p>Sweter okrągły dekolt Jack<br>70zł</p></a>
-                    </div>
-                </div>
-
-                <div class="collection-div">
-                    <img src="/image/bestseller/skorzanakurtka.jpg" class="golf-img">
-                    <div class="underimage-div">
-                        <p>Sweter okrągły Logan bordowy<br>70zł</p>
-                    </div>
-                </div>  
-                
-                <div class="collection-div">
-                    <img src="/image/bestseller/skorzanakurtka.jpg" class="golf-img">
-                    <div class="underimage-div">
-                        <p>Sweter okrągły dekolt Logan<br>70zł</p>
-                    </div>
-                </div> 
-            </div> 
-            
-            <div class="allcollection-div">
-                <div class="collection-div">
-                    <img src="/image/bestseller/golf.jpg" class="golf-img">
-                    <div class="underimage-div">
-                        <p>Koszulki polo<br>70zł</p>
-                    </div>
-                </div>
-
-                <div class="collection-div">
-                    <img src="/image/bestseller/pikowanakurtka.jpg" class="pikowanakurtka-img">
-                    <div class="underimage-div">
-                        <p>Długi zamek<br>70zł</p>
-                    </div>
-                </div>
-
-                <div class="collection-div">
-                    <img src="/image/bestseller/skorzanakurtka.jpg" class="golf-img">
-                    <div class="underimage-div">
-                        <p>Kardigany<br>70zł</p>
-                    </div>
-                </div>  
-                
-                <div class="collection-div">
-                    <img src="/image/bestseller/skorzanakurtka.jpg" class="golf-img">
-                    <div class="underimage-div">
-                        <p>Kardigany<br>70zł</p>
-                    </div>
-                </div>  
-            </div>     
-    </section>
+            <div class="allcollection-div" id="allcollection-div"></div> <!-- w diva "allcollection-div" wrzucony jest JavaScript któy odpowiada za dynamiczne(interaktywne) wyświetlanie elementów-->
+        </section>
 
     <footer class="container-footer">
         <div class="container-footer">
@@ -148,6 +90,8 @@
         <h3 class="h3-copywright">© 2022 Arka | Created by mContentment</h3>
     </div>
     
+    <script src="/javascript/generationshop.js"></script>
+
 </body>
 </html>
 

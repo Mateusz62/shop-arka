@@ -45,10 +45,9 @@
                 </form>
     
                 <div>
-                <a href="" class="a-href-shopping-icon"><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
-                    <!-- dorobić counter z font-awesome -->
-    
-                </div>   
+                    <a href="/basket/basket.html" class="a-href-shopping-icon"><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                    <div class="cartamount">0</div>
+                </div>     
             </div>
         </nav>
 
@@ -82,7 +81,7 @@
                         <option>XL</option>
                         <option>2XL</option>
                     </select>
-                    <input type="number" value="1" class="quantity-clothes-input">
+                    <input type="number" value="1" class="quantity-clothes-input" id="quantity-clothes-input" onclick="quantity()" min="0" max="50">
                     <button class="add-basket-button">Dodaj do koszyka</button>
                     <h4 class="description-product-h4">Opis produktu</h4>
                     <span class="description-product-span">Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. Lorem ipsum dolor, 
@@ -130,6 +129,6 @@
         </div>
         
         <script src="/javascript/changesmallimg/photosupport.js"></script>
-
+        <script src="/javascript/oneproduct.js"></script>
     </body>
     </html>
