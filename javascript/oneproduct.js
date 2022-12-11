@@ -27,7 +27,7 @@ let generateOneClothes = () => {
     let { id, name, imgMain, imgsmall, price, sizes, description } = product;
 
     return `
-    <div class="single-pro-image">
+    <div class="single-pro-image" id=product-id-${id}>
     <img src="${imgMain}" width="100%" id="MainImg">  
     <div class="small-img-group">
         <div class="small-img-col">
@@ -55,10 +55,12 @@ let generateOneClothes = () => {
         <option>${sizes[3]}</option>
         <option>${sizes[4]}</option>
     </select>
-    <input type="number" value="1" class="quantity-clothes-input" id="quantity-clothes-input" min="0" max="50">
+    <div>
+    <input type="number" value="1" class="quantity-clothes-input" min="0" max="50" >
     <button class="add-basket-button" onclick="addProduct(${id})">Dodaj do koszyka</button>
     <h4 class="description-product-h4">Opis produktu</h4>
     <span class="description-product-span">${description}</span>
+    </div>
 </div>
      `;
   }));
@@ -67,23 +69,27 @@ let generateOneClothes = () => {
 generateOneClothes();
 
 let addProduct = (id) => {
-  let quantityValue = document.getElementById("quantity-clothes-input").value; //pobranie ilości z inputa
+  let quantityValue = document.querySelector(".quantity-clothes-input").value; //pobranie ilości z inputa
   let sizeValue = document.getElementById("size-clothes").value; //pobranie wartości rozmiaru
 
-  let selectedItem = id;
-  let search = basket.find((x) => x.id === selectedItem.id);
+  let selectedItem = id; //selectedItem = 1(bo takie jest id obecnego danego produktu)
+  let selectedSizes = sizeValue;
+  let search = basket.find(
+    (product) => product.id === selectedItem && product.size === selectedSizes //odnosze się do koszyka więc musze brać zmienne z obiektu z koszyka
+  ); //czy znaleziony obiekt product.id jest równy nowo dodanemu selected.id
 
   if (search === undefined) {
     basket.push({
-      id,
-      item: quantityValue,
-      size: sizeValue,
+      id: selectedItem, //problem z czytaniem id(musi być tak bo inaczej nie widzi id)(jak dam samo id to działa ale tworzy nowy obiekt bo nie potrafi szukać)
+      item: Number(quantityValue),
+      size: selectedSizes,
     });
   } else {
-    search.item += 1;
+    search.item += Number(quantityValue); //działa dodawanie elementów o tym samym id
   }
-
   console.log(basket);
 };
 
 let refreshBaset = () => {};
+
+//problem jest z wrzuceniem id w htmla
