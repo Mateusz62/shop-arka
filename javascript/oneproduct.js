@@ -4,12 +4,12 @@ let products = [
   {
     id: 1,
     name: "Sweter Luke czarny",
-    imgMain: "./image/bestseller/golf.jpg",
+    imgMain: "/image/bestseller/golf.jpg",
     imgsmall: [
-      "./image/bestseller/golf.jpg",
-      "./image/bestseller/pikowanakurtka.jpg",
-      "./image/bestseller/skorzanakurtka.jpg",
-      "./image/bestseller/golf.jpg",
+      "/image/bestseller/golf.jpg",
+      "/image/bestseller/pikowanakurtka.jpg",
+      "/image/bestseller/skorzanakurtka.jpg",
+      "/image/bestseller/golf.jpg",
     ],
     price: 70 + ".00" + " zł",
     type: "Swetry",
@@ -20,7 +20,7 @@ let products = [
   },
 ];
 
-let basket = [];
+let basket = JSON.parse(localStorage.getItem("data")) || [];
 
 let generateOneClothes = () => {
   return (shopProduct.innerHTML = products.map((product) => {
@@ -45,7 +45,7 @@ let generateOneClothes = () => {
     </div>
 </div> 
 
-<div class="single-pro-details">
+<div class="single-pro-details" id=product-id-${id}>
     <h3 class="title-clothes">${name}</h3>
     <h2 class="price-clothes">${price}</h2>
     <select class="size-clothes" id="size-clothes">
@@ -87,9 +87,22 @@ let addProduct = (id) => {
   } else {
     search.item += Number(quantityValue); //działa dodawanie elementów o tym samym id
   }
+  localStorage.setItem("data", JSON.stringify(basket)); //dodawanie do localStorage czyli zapisanie dodanego produktu
   console.log(basket);
+  refreshBaset(selectedItem);
+};
+let refreshBaset = (id, sizes) => {
+  let sizeValue = document.getElementById("size-clothes").value;
+  let search = basket.find(
+    (product) => product.id === id && product.size === sizeValue
+  ); //wyświetla się prawidłowa ilość która zostanie dodana do koszyka(zabezpieczenie przed tworzeniem nowego obiektu)
+  calculation();
 };
 
-let refreshBaset = () => {};
-
-//problem jest z wrzuceniem id w htmla
+let calculation = () => {
+  let cartAmountBasket = document.getElementById("cartamount");
+  cartAmountBasket.innerHTML = basket
+    .map((product) => product.item)
+    .reduce((x, y) => x + y, 0); //tworzymy nową tablicę o znanej długości na podstawie koszyka gdzie za pomocą metody "reduce" dodajemy poprzedni element do następnego zaczynając od początkowej wartosci 0
+};
+calculation();
