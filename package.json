@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "Shop with products from Arka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mateusz214/shop-arka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mateusz214/shop-arka/issues"
+  },
+  "homepage": "https://github.com/Mateusz214/shop-arka#readme"
+}

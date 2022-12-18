@@ -17,6 +17,7 @@ let products = [
     description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iure corrupti dolore rem, temporibus atque quis pariatur 
     illo provident tempore nesciunt tenetur praesentium ab vel cupiditate at aliquid, fuga numquam`,
+    source: "/oneclothes/onesweter/onesweterLuke/onesweterLuke.html",
   },
 ];
 
