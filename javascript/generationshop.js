@@ -11,7 +11,7 @@ let products = [
       "/image/bestseller/skorzanakurtka.jpg",
       "/image/bestseller/golf.jpg",
     ],
-    price: 70 + ".00" + " zł",
+    price: 70,
     type: "Swetry",
     sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
     description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
@@ -30,7 +30,7 @@ let products = [
       "/image/bestseller/skorzanakurtka.jpg",
       "/image/bestseller/golf.jpg",
     ],
-    price: 70 + ".00" + " zł",
+    price: 70,
     type: "Swetry",
     sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
     description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
@@ -48,7 +48,7 @@ let products = [
       "/image/bestseller/skorzanakurtka.jpg",
       "/image/bestseller/golf.jpg",
     ],
-    price: 70 + ".00" + " zł",
+    price: 70,
     type: "Swetry",
     sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
     description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
@@ -66,7 +66,7 @@ let products = [
       "/image/bestseller/skorzanakurtka.jpg",
       "/image/bestseller/golf.jpg",
     ],
-    price: 70 + ".00" + " zł",
+    price: 70,
     type: "Swetry",
     sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
     description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
@@ -84,7 +84,7 @@ let products = [
       "/image/bestseller/skorzanakurtka.jpg",
       "/image/bestseller/golf.jpg",
     ],
-    price: 70 + ".00" + " zł",
+    price: 70,
     type: "Swetry",
     sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
     description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
@@ -102,7 +102,7 @@ let products = [
       "/image/bestseller/skorzanakurtka.jpg",
       "/image/bestseller/golf.jpg",
     ],
-    price: 70 + ".00" + " zł",
+    price: 70,
     type: "Swetry",
     sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
     description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
@@ -120,7 +120,7 @@ let products = [
       "/image/bestseller/skorzanakurtka.jpg",
       "/image/bestseller/golf.jpg",
     ],
-    price: 70 + ".00" + " zł",
+    price: 70,
     type: "Swetry",
     sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
     description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
@@ -138,7 +138,7 @@ let products = [
       "/image/bestseller/skorzanakurtka.jpg",
       "/image/bestseller/golf.jpg",
     ],
-    price: 70 + ".00" + " zł",
+    price: 70,
     type: "Swetry",
     sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
     description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
@@ -158,7 +158,7 @@ let generateShop = () => {
             <div class="details-div">
                 <h3>${name}</h3>
                     <div class="price-div">
-                    <h2 class="price-h2">${price}</h2>
+                    <h2 class="price-h2">${price}.00 zł</h2>
                     </div>
             </div>
     </div>

@@ -11,7 +11,7 @@ let products = [
       "/image/bestseller/skorzanakurtka.jpg",
       "/image/bestseller/golf.jpg",
     ],
-    price: 70 + ".00" + " zł",
+    price: 70,
     type: "Swetry",
     sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
     description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
@@ -48,7 +48,7 @@ let generateOneClothes = () => {
 
 <div class="single-pro-details" id=product-id-${id}>
     <h3 class="title-clothes">${name}</h3>
-    <h2 class="price-clothes">${price}</h2>
+    <h2 class="price-clothes">${price}.00 zł</h2>
     <select class="size-clothes" id="size-clothes">
         <option>${sizes[0]}</option>
         <option>${sizes[1]}</option>
