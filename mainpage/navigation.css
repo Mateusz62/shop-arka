@@ -82,6 +82,7 @@ ul li a{
     padding: 6px;
     border-radius: 5px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 @media (max-width: 1400px){

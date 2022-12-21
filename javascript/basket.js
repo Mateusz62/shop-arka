@@ -1,5 +1,6 @@
-const basketsection = document.getElementById("basket-product");
+let basketsection = document.getElementById("basket-product");
 let label = document.getElementById("label");
+let totalBill = document.getElementById("totalbill");
 
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 
@@ -21,21 +22,18 @@ let generateItemsBasket = () => {
 
         return `
       <div class="cart-item">
-        <img width="100" src=${search.imgMain} alt=""/>
+        <img width="190" src=${search.imgMain} alt=""/>
         <div class="details">
             <div class="title-price-product">
                 <h4 class="title-price">
-                    <p>${search.name}</p>
-                    <p>${size}</p>
-                    <p class="cart-item-price">${`${
+                    <p class="name">Nazwa: ${search.name}</p>
+                    <p class="size">Rozmiar: ${size}</p>
+                    <p class="cart-item-price">${`Cena: ${
                       search.price * item
                     }.00 zł`}</p>
+                    <p id=${id} class="quantity">Ilość: ${item}</p>
                 </h4>
                 <i class="fa-solid fa-trash delete" id="delete" onclick="removeItem(${id}, '${size}')"></i>
-            </div>
-
-            <div class="quantity-clothes"> 
-                <p id=${id} class="quantity">Ilość: ${item}</p>
             </div>
         </div>
       </div>
@@ -43,7 +41,6 @@ let generateItemsBasket = () => {
       })
       .join(""));
   } else {
-    //basketsection.innerHTML = ``; //działa bez tego tylko musi być odświeżenie strony
     label.innerHTML = `
       <div class="empty-basket-div">
         <form class="description-empty-basket">
@@ -64,5 +61,40 @@ let removeItem = (id, size) => {
     (product) => product.id == selectedItem && product.size !== selectedSize // jeśli dany produkt id jest równy produktowi id w localstorage i dany rozmiar jest różny od danego rozmiaru w localstorage to usuń produkt
   );
   generateItemsBasket();
+  TotalAmount();
+  calculation();
   localStorage.setItem("data", JSON.stringify(basket));
+  location.reload();
 };
+
+let TotalAmount = () => {
+  if (basket.length !== 0) {
+    let amount = basket
+      .map((product) => {
+        let { id, item } = product;
+        let search = products.find((product) => product.id === id) || [];
+        return item * search.price;
+      })
+      .reduce((x, y) => x + y, 0);
+    //console.log(amount);
+    totalBill.innerHTML = `
+     <h2>Podsumowanie: ${amount}.00 zł</h2>
+     <div class="btn">
+     <button class="payment">Przejdź do płatności</button>
+     <button onclick="clearCart()" class="removeAll">Wyczyść wszystko</button>
+     </div>
+     `;
+  } else {
+    return;
+  }
+};
+
+let clearCart = () => {
+  basket = [];
+  generateItemsBasket();
+  calculation();
+  localStorage.setItem("data", JSON.stringify(basket));
+  location.reload();
+};
+
+TotalAmount();
