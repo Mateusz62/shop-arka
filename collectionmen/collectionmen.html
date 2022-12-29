@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kolekcja męska | Arka</title>
+    <title>Przechowalnia | Arka</title>
     <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
     <link href="/fontawesome/css/brands.css" rel="stylesheet">
     <link href="/fontawesome/css/solid.css" rel="stylesheet">
@@ -47,58 +47,15 @@
                 <div>
                     <a href="/basket/basket.html" class="a-href-shopping-icon"><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
                     <div class="cartamount" id="cartamount">0</div>
-                </div>   
+                </div>  
             </div>
         </nav>
 
         <section class="collection-section">
             <h2 class="collection-h2">Wybierz kategorie</h2>
-            <div class="allcollection-div">
-                <div class="collection-div">
-                    <a href="/clothes/sweaters/sweaters.html"><img src="/image/bestseller/golf.jpg" class="golf-img"></a>
-                    <div class="underimage-div">
-                        <a href="/clothes/sweaters/sweaters.html"><p>Swetry</p></a>
-                    </div>
-                </div>
 
-                <div class="collection-div">
-                    <img src="/image/bestseller/pikowanakurtka.jpg" class="pikowanakurtka-img">
-                    <div class="underimage-div">
-                        <p>Koszule</p>
-                    </div>
-                </div>
-
-                <div class="collection-div">
-                    <img src="/image/bestseller/skorzanakurtka.jpg" class="golf-img">
-                    <div class="underimage-div">
-                        <p>Golfy</p>
-                    </div>
-                </div>                 
-            </div> 
-            
-            <div class="allcollection-div">
-                <div class="collection-div">
-                    <img src="/image/bestseller/golf.jpg" class="golf-img">
-                    <div class="underimage-div">
-                        <p>Koszulki polo</p>
-                    </div>
-                </div>
-
-                <div class="collection-div">
-                    <img src="/image/bestseller/pikowanakurtka.jpg" class="pikowanakurtka-img">
-                    <div class="underimage-div">
-                        <p>Długi zamek</p>
-                    </div>
-                </div>
-
-                <div class="collection-div">
-                    <img src="/image/bestseller/skorzanakurtka.jpg" class="golf-img">
-                    <div class="underimage-div">
-                        <p>Kardigany</p>
-                    </div>
-                </div>                 
-            </div>     
-    </section>
+            <div class="allcollection-div" id="allcollection-div"></div> <!-- w diva "allcollection-div" wrzucony jest JavaScript któy odpowiada za dynamiczne(interaktywne) wyświetlanie elementów-->
+        </section>
 
     <footer class="container-footer">
         <div class="container-footer">
@@ -132,7 +89,9 @@
     <div class="copywright-h3">
         <h3 class="h3-copywright">© 2022 Arka | Created by mContentment</h3>
     </div>
-    <script src="/javascript//basket.js"></script>
+
+    <script src="/javascript/generatescollection.js"></script>
+    <script src="/javascript/basket.js"></script>
 </body>
 </html>
 
