@@ -3,7 +3,7 @@
 }
 .welcome-section{
     width: 100%;
-    background-color: burlywood;
+    background-color: darkslategray;
     min-height: 75vh;
 }
 .title-main{
@@ -13,7 +13,7 @@
     font-size: 35px;
     top: 30px;
     padding-left: 40px;
-    color: blue;
+    color: black;
 }
 .circle{
   border-radius: 100%; /* odpowiada za to że są okrągłę */
@@ -37,7 +37,7 @@
 }
 .circle-midle {
     position: relative;
-    border-color: burlywood;
+    border-color: green;
 }
   
 .circle-small {
@@ -47,7 +47,7 @@
     align-items: center;
     justify-content: center;
     font-size: 1.6rem;
-    color: burlywood;
+    color: green;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;

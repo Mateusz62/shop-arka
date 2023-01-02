@@ -9,37 +9,37 @@ let products = [
 
   {
     name: "Swetry",
-    imgMain: "/image/bestseller/golf.jpg",
+    imgMain: "/image/golfy/golfzswetrem/golf.png",
   },
 
   {
     name: "Koszule",
-    imgMain: "/image/bestseller/golf.jpg",
+    imgMain: "/image/golfy/golfzswetrem/golf.png",
   },
 
   {
     name: "Koszule zawijane",
-    imgMain: "/image/bestseller/golf.jpg",
+    imgMain: "/image/golfy/golfzswetrem/golf.png",
   },
 
   {
     name: "Swetry okrągłe",
-    imgMain: "/image/bestseller/golf.jpg",
+    imgMain: "/image/golfy/golfzswetrem/golf.png",
   },
 
   {
     name: "Sweter Luke czarny",
-    imgMain: "/image/bestseller/golf.jpg",
+    imgMain: "/image/golfy/golfzswetrem/golf.png",
   },
 
   {
     name: "Sweter Luke czarny",
-    imgMain: "/image/bestseller/golf.jpg",
+    imgMain: "/image/golfy/golfzswetrem/golf.png",
   },
 
   {
     name: "Sweter Luke czarny",
-    imgMain: "/image/bestseller/golf.jpg",
+    imgMain: "/image/golfy/golfzswetrem/golf.png",
   },
 ];
 
