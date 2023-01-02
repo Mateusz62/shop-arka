@@ -1,10 +1,6 @@
 let basketsection = document.getElementById("basket-product");
 let label = document.getElementById("label");
 let totalBill = document.getElementById("totalbill");
-<<<<<<< HEAD
-
-=======
->>>>>>> aec3da75cb453ed530af33b4947208b4c18ee16d
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 
 let calculation = () => {

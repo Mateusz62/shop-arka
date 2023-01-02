@@ -8,147 +8,39 @@ let products = [
   },
 
   {
-<<<<<<< HEAD
     name: "Swetry",
     imgMain: "/image/golfy/golfzswetrem/golf.png",
-=======
-    id: 2,
-    name: "Golfy",
-    imgMain: "/image/golfy/golfzswetrem/golf.png",
-    imgsmall: [
-      "/image/bestseller/golf.jpg",
-      "/image/bestseller/pikowanakurtka.jpg",
-      "/image/bestseller/skorzanakurtka.jpg",
-      "/image/bestseller/golf.jpg",
-    ],
-    price: 70,
-    type: "Swetry",
-    sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
-    description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iure corrupti dolore rem, temporibus atque quis pariatur 
-    illo provident tempore nesciunt tenetur praesentium ab vel cupiditate at aliquid, fuga numquam`,
->>>>>>> aec3da75cb453ed530af33b4947208b4c18ee16d
   },
 
   {
     name: "Koszule",
     imgMain: "/image/golfy/golfzswetrem/golf.png",
-<<<<<<< HEAD
-=======
-    imgsmall: [
-      "/image/bestseller/golf.jpg",
-      "/image/bestseller/pikowanakurtka.jpg",
-      "/image/bestseller/skorzanakurtka.jpg",
-      "/image/bestseller/golf.jpg",
-    ],
-    price: 70,
-    type: "Swetry",
-    sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
-    description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iure corrupti dolore rem, temporibus atque quis pariatur 
-    illo provident tempore nesciunt tenetur praesentium ab vel cupiditate at aliquid, fuga numquam`,
->>>>>>> aec3da75cb453ed530af33b4947208b4c18ee16d
   },
 
   {
     name: "Koszule zawijane",
     imgMain: "/image/golfy/golfzswetrem/golf.png",
-<<<<<<< HEAD
-=======
-    imgsmall: [
-      "/image/bestseller/golf.jpg",
-      "/image/bestseller/pikowanakurtka.jpg",
-      "/image/bestseller/skorzanakurtka.jpg",
-      "/image/bestseller/golf.jpg",
-    ],
-    price: 70,
-    type: "Swetry",
-    sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
-    description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iure corrupti dolore rem, temporibus atque quis pariatur 
-    illo provident tempore nesciunt tenetur praesentium ab vel cupiditate at aliquid, fuga numquam`,
->>>>>>> aec3da75cb453ed530af33b4947208b4c18ee16d
   },
 
   {
     name: "Swetry okrągłe",
     imgMain: "/image/golfy/golfzswetrem/golf.png",
-<<<<<<< HEAD
-=======
-    imgsmall: [
-      "/image/bestseller/golf.jpg",
-      "/image/bestseller/pikowanakurtka.jpg",
-      "/image/bestseller/skorzanakurtka.jpg",
-      "/image/bestseller/golf.jpg",
-    ],
-    price: 70,
-    type: "Swetry",
-    sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
-    description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iure corrupti dolore rem, temporibus atque quis pariatur 
-    illo provident tempore nesciunt tenetur praesentium ab vel cupiditate at aliquid, fuga numquam`,
->>>>>>> aec3da75cb453ed530af33b4947208b4c18ee16d
   },
 
   {
     name: "Sweter Luke czarny",
     imgMain: "/image/golfy/golfzswetrem/golf.png",
-<<<<<<< HEAD
-=======
-    imgsmall: [
-      "/image/bestseller/golf.jpg",
-      "/image/bestseller/pikowanakurtka.jpg",
-      "/image/bestseller/skorzanakurtka.jpg",
-      "/image/bestseller/golf.jpg",
-    ],
-    price: 70,
-    type: "Swetry",
-    sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
-    description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iure corrupti dolore rem, temporibus atque quis pariatur 
-    illo provident tempore nesciunt tenetur praesentium ab vel cupiditate at aliquid, fuga numquam`,
->>>>>>> aec3da75cb453ed530af33b4947208b4c18ee16d
   },
 
   {
     name: "Sweter Luke czarny",
     imgMain: "/image/golfy/golfzswetrem/golf.png",
-<<<<<<< HEAD
-=======
-    imgsmall: [
-      "/image/bestseller/golf.jpg",
-      "/image/bestseller/pikowanakurtka.jpg",
-      "/image/bestseller/skorzanakurtka.jpg",
-      "/image/bestseller/golf.jpg",
-    ],
-    price: 70,
-    type: "Swetry",
-    sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
-    description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iure corrupti dolore rem, temporibus atque quis pariatur 
-    illo provident tempore nesciunt tenetur praesentium ab vel cupiditate at aliquid, fuga numquam`,
->>>>>>> aec3da75cb453ed530af33b4947208b4c18ee16d
   },
 
   {
     id: 8,
     name: "Sweter Luke czarny",
     imgMain: "/image/golfy/golfzswetrem/golf.png",
-<<<<<<< HEAD
-=======
-    imgsmall: [
-      "/image/bestseller/golf.jpg",
-      "/image/bestseller/pikowanakurtka.jpg",
-      "/image/bestseller/skorzanakurtka.jpg",
-      "/image/bestseller/golf.jpg",
-    ],
-    price: 70,
-    type: "Swetry",
-    sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
-    description: `Sweter wykonanty z najlepszych materiałów. Skład: 100% bawełna. Przeróżna kolorystyka. 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iure corrupti dolore rem, temporibus atque quis pariatur 
-    illo provident tempore nesciunt tenetur praesentium ab vel cupiditate at aliquid, fuga numquam`,
->>>>>>> aec3da75cb453ed530af33b4947208b4c18ee16d
   },
 ];
 

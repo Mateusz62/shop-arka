@@ -104,11 +104,7 @@ let generateShop = () => {
      <div class="item-div" id="product-id-${id}">
          <a href="${source}"><img src="${imgMain}" width="250" alt=""></a>
              <div class="details-div">
-<<<<<<< HEAD
                 <h3>${name}</h3>
-=======
-                 <h3>${name}</h3>
->>>>>>> aec3da75cb453ed530af33b4947208b4c18ee16d
                      <div class="price-div">
                      <h2 class="price-h2">${price}.00 zł</h2>
                      </div>
