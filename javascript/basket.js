@@ -1,7 +1,7 @@
 let basketsection = document.getElementById("basket-product");
 let label = document.getElementById("label");
 let totalBill = document.getElementById("totalbill");
-import { products } from "./products.js";
+
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 
 let calculation = () => {
