@@ -38,7 +38,7 @@ let products = [
   },
 
   {
-    name: "Sweter Luke czarny",
+    name: "Sweter Jack czarny",
     imgMain: "/image/golfy/golfzswetrem/golf.png",
   },
 ];
