@@ -1,5 +1,5 @@
 let shopProduct = document.getElementById("oneclothes-section");
-<<<<<<< HEAD
+
 let products = [
   {
     id: 1,
@@ -17,26 +17,6 @@ let products = [
     description: `Sweter z golfem wykonany z najlepszych materiałów. Skład: 70% bawełna i 30% poliester. Przeróżna kolorystyka.`,
   },
 ];
-=======
-import { products } from "./products.js";
-// let products = [
-//   {
-//     id: 1,
-//     name: "Sweter z golfem",
-//     imgMain: "/image/golfy/golfzswetrem/golf.png",
-//     imgsmall: [
-//       "/image/golfy/golfzswetrem/golf.png",
-//       "/image/golfy/golfzswetrem/golf1.png",
-//       "/image/golfy/golfzswetrem/golf2.png",
-//       "/image/golfy/golfzswetrem/golf3.png",
-//     ],
-//     price: 80,
-//     type: "Golf",
-//     sizes: ["Wybierz rozmiar", "M", "L", "XL", "XXL"],
-//     description: `Sweter z golfem wykonany z najlepszych materiałów. Skład: 70% bawełna i 30% poliester. Przeróżna kolorystyka.`,
-//   },
-// ];
->>>>>>> c64719d216a9612fb3374f40f44416d142cc5466
 
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 

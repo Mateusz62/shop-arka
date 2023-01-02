@@ -10,7 +10,7 @@ let products = [
   {
     id: 2,
     name: "Golfy",
-    imgMain: "/image/bestseller/golf.jpg",
+    imgMain: "/image/golfy/golfzswetrem/golf.png",
     imgsmall: [
       "/image/bestseller/golf.jpg",
       "/image/bestseller/pikowanakurtka.jpg",
@@ -27,7 +27,7 @@ let products = [
 
   {
     name: "Koszule",
-    imgMain: "/image/bestseller/golf.jpg",
+    imgMain: "/image/golfy/golfzswetrem/golf.png",
     imgsmall: [
       "/image/bestseller/golf.jpg",
       "/image/bestseller/pikowanakurtka.jpg",
@@ -44,7 +44,7 @@ let products = [
 
   {
     name: "Koszule zawijane",
-    imgMain: "/image/bestseller/golf.jpg",
+    imgMain: "/image/golfy/golfzswetrem/golf.png",
     imgsmall: [
       "/image/bestseller/golf.jpg",
       "/image/bestseller/pikowanakurtka.jpg",
@@ -61,7 +61,7 @@ let products = [
 
   {
     name: "Swetry okrągłe",
-    imgMain: "/image/bestseller/golf.jpg",
+    imgMain: "/image/golfy/golfzswetrem/golf.png",
     imgsmall: [
       "/image/bestseller/golf.jpg",
       "/image/bestseller/pikowanakurtka.jpg",
@@ -78,7 +78,7 @@ let products = [
 
   {
     name: "Sweter Luke czarny",
-    imgMain: "/image/bestseller/golf.jpg",
+    imgMain: "/image/golfy/golfzswetrem/golf.png",
     imgsmall: [
       "/image/bestseller/golf.jpg",
       "/image/bestseller/pikowanakurtka.jpg",
@@ -95,7 +95,7 @@ let products = [
 
   {
     name: "Sweter Luke czarny",
-    imgMain: "/image/bestseller/golf.jpg",
+    imgMain: "/image/golfy/golfzswetrem/golf.png",
     imgsmall: [
       "/image/bestseller/golf.jpg",
       "/image/bestseller/pikowanakurtka.jpg",
@@ -113,7 +113,7 @@ let products = [
   {
     id: 8,
     name: "Sweter Luke czarny",
-    imgMain: "/image/bestseller/golf.jpg",
+    imgMain: "/image/golfy/golfzswetrem/golf.png",
     imgsmall: [
       "/image/bestseller/golf.jpg",
       "/image/bestseller/pikowanakurtka.jpg",
