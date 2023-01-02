@@ -1,6 +1,10 @@
 .main-nav{
     /* width: 100%; */
+<<<<<<< HEAD
     background-color: grey;
+=======
+    background-color: gray;
+>>>>>>> aec3da75cb453ed530af33b4947208b4c18ee16d
     height: 10vh;
     margin-top: 10px;
 }
