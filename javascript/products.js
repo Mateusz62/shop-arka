@@ -1,4 +1,4 @@
-let products = [
+export let products = [
   {
     id: 1,
     name: "Sweter z golfem",
