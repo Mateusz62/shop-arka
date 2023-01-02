@@ -104,3 +104,20 @@ let calculation = () => {
     .reduce((x, y) => x + y, 0); //tworzymy nową tablicę o znanej długości na podstawie koszyka gdzie za pomocą metody "reduce" dodajemy poprzedni element do następnego zaczynając od początkowej wartosci 0
 };
 calculation();
+
+let changeImg = (products) => {
+  let { imgMain, imgsmall } = products;
+  imgsmall[0].onclick = function () {
+    imgMain.src = imgsmall[0].src;
+  };
+  imgsmall[1].onclick = function () {
+    imgMain.src = imgsmall[1].src;
+  };
+  imgsmall[2].onclick = function () {
+    imgMain.src = imgsmall[2].src;
+  };
+  imgsmall[3].onclick = function () {
+    imgMain.src = imgsmall[3].src;
+  };
+};
+changeImg();
